@@ -1,0 +1,58 @@
+name: cheraghbargh
+description: cheragh bargh
+# repository: https://gitlab.com/amirhh00/cheraghbargh
+version: 1.1.9+1
+environment:
+  sdk: ">=2.7.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  meta: ">=1.1.0 <2.0.0"
+  sentry: ">=3.0.0 <4.0.0"
+  flutter_redux: ^0.6.0
+  async: "^2.4.1"
+  http: ^0.12.0+4
+  redux_epics: ^0.13.0
+  rxdart: ^0.23.1
+  rxdart_codemod: ^0.1.5
+  redux_persist: ^0.8.4
+  redux_persist_flutter: ^0.8.2
+  redux_persist_web: ^0.8.2
+  carousel_slider: ^2.0.0
+  flutter_svg: ^0.17.4
+  flutter_dotenv: ^2.1.0
+  flutter_map: ^0.8.2
+  user_location: ^0.1.2
+  flutter_full_pdf_viewer: ^1.0.6
+  flutter_keyboard_visibility: ^2.0.0
+  image_picker: ^0.6.5+2
+  url_launcher: ^5.4.10
+  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/
+
+  fonts:
+    - family: shabnam
+      fonts:
+        - asset: assets/fonts/Shabnam-Medium-FD.ttf
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "800020"
+  fill: false
+  android_disable_fullscreen: true
